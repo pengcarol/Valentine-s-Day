@@ -103,3 +103,18 @@ button {
 button:hover {
   background-color: #d95d68;
 }
+
+#gif {
+  display: none;
+}
+
+#align-pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#giphy {
+  display: flex;
+  margin-top: 60%;
+}

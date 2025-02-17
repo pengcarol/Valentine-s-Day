@@ -26,15 +26,22 @@ document.addEventListener('fullscreenchange', function() {
     let button = document.getElementById('full-screen');
     button.style.display = 'block';
 
+    let gif = document.getElementById('gif');
+    gif.style.display = 'none';
+
     let nobutton = document.getElementById("no");
     nobutton.style.left = "780px"; 
     nobutton.style.top = "526px";
   }
 });
 
-//function yes() {
-
-//}
+function yes() {
+  let container = document.getElementById('container');
+  container.style.display = 'none';
+  
+  let gif = document.getElementById('gif');
+  gif.style.display = 'block';
+}
 
 function no() {
   const windowWidth = window.innerWidth;
