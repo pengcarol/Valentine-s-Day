@@ -1,0 +1,21 @@
+body {
+  background-image: url("images/background.png");
+  background-size: 100%;
+}
+
+#fs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+#full-screen {
+  background-color: #f28b94;
+  font-size: 40px;
+  padding: 30px 100px;
+  border-radius: 15px;
+  border: none; 
+  font-family: Marker Felt, fantasy;
+  color: white;
+  letter-spacing: 3px;
+}
